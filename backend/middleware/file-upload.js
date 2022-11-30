@@ -7,6 +7,7 @@ const MIME_TYPE_MAP = {
     "image/jpg": "jpg",
 };
 
+//file upload components online can also used libraries such as react-dropzone to support drag and drop to improve user experience
 const fileUpload = multer({
     limits: 500000,
     storage: multer.diskStorage({
