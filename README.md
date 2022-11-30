@@ -3,6 +3,7 @@
 
 **Objective:** A single-page web application for users to share and find graffiti in San Francisco streets. Users can post new graffiti they found in some unnoticeable conners with detailed information and description about these graffiti, or they can just browser our website to see all graffiti created by unknown artists but they ignored.  
 
+//you will need to add the actual published website link here in your README
 **Functionalities:** 
 
 Login/ create account - Users can register and login. Finished by Hui
