@@ -4,6 +4,8 @@ const placesControllers = require("../controllers/places-controllers");
 const fileUpload = require("../middleware/file-upload");
 const checkAuth = require("../middleware/check-auth");
 
+
+//There is a bug here, once user register. Although they will login this time, next time they login will not have a valid login buttom even though id and passward is correct.
 const router = express.Router();
 
 router.get("/:pid", placesControllers.getPlaceById);
