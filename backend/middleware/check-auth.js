@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken")
 const HttpError = require("../models/http-error");
 
-
+//you may want to combine the auth part with crud of users part, so that duplicated functions and folders can be avoided 
 module.exports = (req, res, next) => {
     if(req.method === 'OPTIONS'){
         return next();
