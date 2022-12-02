@@ -6,7 +6,7 @@ import {
     Switch,
 } from "react-router-dom";
 import "./App.css";
-
+// remove redundant comments
 // import Users from "./user/pages/User";
 // import NewPlace from "./places/pages/NewPlace";
 // import UpdatePlace from "./places/pages/UpdatePlace";
