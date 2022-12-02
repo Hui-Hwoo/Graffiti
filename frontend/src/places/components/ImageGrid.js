@@ -1,3 +1,4 @@
+// recommend each component with its own css in one directory
 import React from "react";
 import PlaceItem from "./PlaceItem";
 // import { motion } from "framer-motion";
