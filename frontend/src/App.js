@@ -7,11 +7,6 @@ import {
 } from "react-router-dom";
 import "./App.css";
 
-// import Users from "./user/pages/User";
-// import NewPlace from "./places/pages/NewPlace";
-// import UpdatePlace from "./places/pages/UpdatePlace";
-// import UserPlaces from "./places/pages/UserPlaces";
-// import Auth from "./user/pages/Auth";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import LoadingSpinner from "./shared/components/UIElements/LoadingSpinner";
 import { AuthContext } from "./shared/context/auth-context";
