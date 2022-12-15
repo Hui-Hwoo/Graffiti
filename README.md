@@ -1,3 +1,5 @@
+// readme file should contain author, link to homepage, design doc
+
 # WE WANT THE BONUS POINTS
 # Street Art -- Graffiti
 
