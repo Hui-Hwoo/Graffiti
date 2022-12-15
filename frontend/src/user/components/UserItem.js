@@ -26,4 +26,11 @@ const UserItem = (props) => {
     );
 };
 
+
+/* Hui, I notice here and in many other components throughout the project that
+prop types were not added to each component. It is a good idea to add proptypes
+to each component to make sure that componenents are using correct data types.
+It also helps readers of your code to easily identify data types of props, thereby
+improving overall readability*/
+
 export default UserItem;
