@@ -9,6 +9,8 @@ import { AuthContext } from "../../shared/context/auth-context";
 import { useHttpClient } from "../../shared/hooks/hook-http";
 
 import "./PlaceItem.css";
+/* Hui, once again on folder structure, I like how css and js files are placed
+in the same folder. Makes it easy to locate js and associated css files.*/
 
 const PlaceItem = (props) => {
     const auth = useContext(AuthContext);
