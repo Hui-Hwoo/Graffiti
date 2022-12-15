@@ -2,6 +2,7 @@ import React from "react";
 import PlaceItem from "./PlaceItem";
 // import { motion } from "framer-motion";
 
+//One general recommendation is to put js and css files into different folders
 const ImageGrid = ({ places }) => {
     return (
         <div className="img-grid">
