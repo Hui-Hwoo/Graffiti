@@ -4,17 +4,12 @@
 body {
     background-color: rgb(129, 113, 161);
     margin: 0;
-    /* font-family: "Caveat", cursive; */
     font-family: "Trirong", serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: var(--secondary);
 
     background-image: url("https://c1.wallpaperflare.com/preview/314/746/476/graffiti-grunge-design-paint.jpg");
-}
-
-code {
-    /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; */
 }
 
 .slide-in-left-enter {
