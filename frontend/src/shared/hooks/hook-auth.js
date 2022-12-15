@@ -6,6 +6,7 @@ export const useAuth = () => {
     const [expirationData, setExpirationData] = useState();
     const [userId, setUserId] = useState(null);
 
+    // Using session to store security data might be better
     const login = useCallback((uid, token, expirationDate) => {
         setToken(token);
         const tokenExpirationData =
