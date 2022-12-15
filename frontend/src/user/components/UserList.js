@@ -2,6 +2,9 @@ import React from "react";
 import UserItem from "./UserItem";
 import Card from "../../shared/components/UIElements/Card";
 import "./UserList.css";
+// PropTypes check
+
+import PropTypes from "prop-types";
 
 const UserList = (props) => {
     if (props.items.length === 0) {
